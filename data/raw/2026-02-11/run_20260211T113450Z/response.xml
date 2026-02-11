@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Cb5IFwGHeAcLJKQ3zaXHl5iKVzk</id>
+  <title>arXiv Query: search_query=ti:"random forest"&amp;id_list=&amp;start=0&amp;max_results=1</title>
+  <updated>2026-02-11T10:52:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22random+forest%22&amp;start=0&amp;max_results=1&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>1</opensearch:itemsPerPage>
+  <opensearch:totalResults>702</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.19022v1</id>
+    <title>Heterogeneous Random Forest</title>
+    <updated>2024-10-24T09:18:55Z</updated>
+    <link href="https://arxiv.org/abs/2410.19022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.19022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Random forest (RF) stands out as a highly favored machine learning approach for classification problems. The effectiveness of RF hinges on two key factors: the accuracy of individual trees and the diversity among them. In this study, we introduce a novel approach called heterogeneous RF (HRF), designed to enhance tree diversity in a meaningful way. This diversification is achieved by deliberately introducing heterogeneity during the tree construction. Specifically, features used for splitting near the root node of previous trees are assigned lower weights when constructing the feature sub-space of the subsequent trees. As a result, dominant features in the prior trees are less likely to be employed in the next iteration, leading to a more diverse set of splitting features at the nodes. Through simulation studies, it was confirmed that the HRF method effectively mitigates the selection bias of trees within the ensemble, increases the diversity of the ensemble, and demonstrates superior performance on datasets with fewer noise features. To assess the comparative performance of HRF against other widely adopted ensemble methods, we conducted tests on 52 datasets, comprising both real-world and synthetic data. HRF consistently outperformed other ensemble methods in terms of accuracy across the majority of datasets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-24T09:18:55Z</published>
+    <arxiv:comment>18 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ye-eun Kim</name>
+    </author>
+    <author>
+      <name>Seoung Yun Kim</name>
+    </author>
+    <author>
+      <name>Hyunjoong Kim</name>
+    </author>
+  </entry>
+</feed>
