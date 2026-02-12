@@ -59,3 +59,7 @@ data/state.json
 *.log
 logs/
 
+# pycache
+__pycache__/
+*.py[cod]
+
