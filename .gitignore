@@ -1,0 +1,61 @@
+# ===============================
+# Python
+# ===============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Bytecode cache directories
+__pycache__/
+
+# ===============================
+# Virtual environments
+# ===============================
+
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# IDE / Editor
+# ===============================
+
+.vscode/
+.idea/
+
+# ===============================
+# OS Files
+# ===============================
+
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Data (VERY IMPORTANT)
+# ===============================
+
+# Ignore everything inside raw & processed
+data/raw/*
+data/processed/*
+
+# But keep the folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore state file
+data/state.json
+
+# Optional: ignore entire data folder
+# data/
+
+# ===============================
+# Logs
+# ===============================
+
+*.log
+logs/
+
