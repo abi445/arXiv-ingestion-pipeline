@@ -1,0 +1,6 @@
+wat doen we eerst?
+ik denk dat de algemene structuur er al is nu.
+
+De bedoeling is om een API te gebruiken om papers te verzamelen. Die verwerk je dan en sla ze op
+
+Ingest (API fetch) → Persist raw → Transform (parse/normalize) → Dedupe/state → Persist processed (JSONL) → (optional) Enrich → Report

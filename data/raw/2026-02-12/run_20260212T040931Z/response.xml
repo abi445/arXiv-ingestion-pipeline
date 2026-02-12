@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dib+qPJhAyDvR9yeEdLgtZERJCU</id>
+  <title>arXiv Query: search_query=ti:"rotation random"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-02-12T03:58:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22rotation+random%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1903.02058v2</id>
+    <title>Rotatable random sequences in local fields</title>
+    <updated>2019-05-16T21:02:32Z</updated>
+    <link href="https://arxiv.org/abs/1903.02058v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.02058v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An infinite sequence of real random variables $(ξ_1, ξ_2, \dots)$ is said to be rotatable if every finite subsequence $(ξ_1, \dots, ξ_n)$ has a spherically symmetric distribution. A celebrated theorem of Freedman states that $(ξ_1, ξ_2, \dots)$ is rotatable if and only if $ξ_j = τη_j$ for all $j$, where $(η_1, η_2, \dots)$ is a sequence of independent standard Gaussian random variables and $τ$ is an independent nonnegative random variable. Freedman's theorem is equivalent to a classical result of Schoenberg which says that a continuous function $φ: \mathbb{R}_+ \to \mathbb{C}$ with $φ(0) = 1$ is completely monotone if and only if $φ_n: \mathbb{R}^n \to \mathbb{R}$ given by $φ_n(x_1, \ldots, x_n) = φ(x_1^2 + \cdots + x_n^2)$ is nonnegative definite for all $n \in \mathbb{N}$. We establish the analogue of Freedman's theorem for sequences of random variables taking values in local fields using probabilistic methods and then use it to establish a local field analogue of Schoenberg's result. Along the way, we obtain a local field counterpart of an observation variously attributed to Maxwell, Poincaré, and Borel which says that if $(ζ_1, \ldots, ζ_n)$ is uniformly distributed on the sphere of radius $\sqrt{n}$ in $\mathbb{R}^n$, then, for fixed $k \in \mathbb{N}$, the distribution of $(ζ_1, \ldots, ζ_k)$ converges to that of a vector of $k$ independent standard Gaussian random variables as $n \to \infty$.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-05T21:16:31Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Steven N. Evans</name>
+    </author>
+    <author>
+      <name>Daniel Raban</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.12023v1</id>
+    <title>Rotating random trees with Skorokhod's $M_1$ topology</title>
+    <updated>2024-12-16T17:48:59Z</updated>
+    <link href="https://arxiv.org/abs/2412.12023v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.12023v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the classical coding of measured $\mathbb R$-trees by continuous excursion-type functions to càdlàg excursion-type functions through the notion of parametric representations. The main feature of this extension is its continuity properties with respect to the \textsc{Gromov-Hausdorff-Prokhorov} topology for $\mathbb R$-trees and \textsc{Skorokhod}'s $M_1$ topology for càdlàg functions. As a first application, we study the $\mathbb R$-trees $\mathcal T_{x^{(α)}}$ encoded by excursions of spectrally positive $α$-stable \textsc{Lévy} processes for $α\in (1,2]$. In a second time, we use this setting to study the large-scale effects of a well-known bijection between plane trees and binary trees, the so-called rotation. \textsc{Marckert} has proved that the rotation acts as a dilation on large uniform trees, and we show that this remains true when the rotation is applied to large critical \textsc{Bienaymé} trees with offspring distribution attracted to a Gaussian distribution. However, this does not hold anymore when the offspring distribution falls in the domain of attraction of an $α$-stable law with $α\in (1,2)$, and instead we prove that the scaling limit of the rotated trees is $\mathcal T_{x^{(α)}}$.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-16T17:48:59Z</published>
+    <arxiv:comment>45 pages, 20 figures</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Antoine Aurillard</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.09868v1</id>
+    <title>Rotational random walk of the harmonic three body system</title>
+    <updated>2017-06-29T17:30:11Z</updated>
+    <link href="https://arxiv.org/abs/1706.09868v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.09868v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When Robert Brown first observed colloidal pollen grains in water he inaccurately concluded that their motion arose "neither from currents in the fluid, nor from its gradual evaporation, but belonged to the particle itself". In this work we study the dynamics of a classical molecule consisting of three masses and three harmonic springs in free space that does display a rotational random walk "belonging to the particle itself". The geometric nonlinearities arising from the non-zero rest lengths of the springs connecting the masses break the integrability of the harmonic system and lead to chaotic dynamics in many regimes of phase space. The non-trivial connection of the system's shape space allows it, much like falling cats, to rotate with zero angular momentum and manifest its chaotic dynamics as an orientational random walk. In the transition to chaos the system displays random orientation reversals and provides a simple realization of Lévy walks.</summary>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-29T17:30:11Z</published>
+    <arxiv:primary_category term="nlin.CD"/>
+    <author>
+      <name>Ori Katz-Saporta</name>
+    </author>
+    <author>
+      <name>Efi Efrati</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.122.024102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.122.024102" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,12 @@
+{
+  "fetched_at_utc": "20260212T040931Z",
+  "endpoint": "http://export.arxiv.org/api/query",
+  "params": {
+    "search_query": "ti:\"rotation random\"",
+    "start": 0,
+    "max_results": 5
+  },
+  "request_url": "http://export.arxiv.org/api/query?search_query=ti%3A%22rotation+random%22&start=0&max_results=5",
+  "http_status": 200,
+  "response_bytes": 6595
+}

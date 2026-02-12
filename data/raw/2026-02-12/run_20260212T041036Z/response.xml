@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/e1EXHIAtFJu/ZdzUczoXvuLcslg</id>
+  <title>arXiv Query: search_query=ti:"random"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-02-12T04:10:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=ti:%22random%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>37976</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2101.02199v5</id>
+    <title>Random-field random surfaces</title>
+    <updated>2023-02-15T08:43:28Z</updated>
+    <link href="https://arxiv.org/abs/2101.02199v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.02199v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study how the typical gradient and typical height of a random surface are modified by the addition of quenched disorder in the form of a random independent external field. The results provide quantitative estimates, sharp up to multiplicative constants, in the following cases.
+  It is shown that for real-valued disordered random surfaces of the $\nabla φ$ type with a uniformly convex interaction potential: (i) The gradient of the surface delocalizes in dimensions $1\le d\le 2$ and localizes in dimensions $d\ge3$. (ii) The surface delocalizes in dimensions $1\le d\le 4$ and localizes in dimensions $d\ge 5$.
+  It is further shown that for the integer-valued disordered Gaussian free field: (i) The gradient of the surface delocalizes in dimensions $d=1,2$ and localizes in dimensions $d\ge3$. (ii) The surface delocalizes in dimensions $d=1,2$. (iii) The surface localizes in dimensions $d\ge 3$ at weak disorder strength. The behavior in dimensions $d\ge 3$ at strong disorder is left open.
+  The proofs rely on several tools: explicit identities satisfied by the expectation of the random surface, the Efron--Stein concentration inequality, a coupling argument for Langevin dynamics (originally due to Funaki and Spohn) and the Nash--Aronson estimate.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-06T18:59:05Z</published>
+    <arxiv:comment>Fixes a mistake in the appendix: the inequality (A.10) of arXiv v4 was incorrect, this is corrected in this version with an additional half a page. The result of Proposition 3.3 is still correct. ArXiv v4 is the version accepted for publication; 50 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Paul Dario</name>
+    </author>
+    <author>
+      <name>Matan Harel</name>
+    </author>
+    <author>
+      <name>Ron Peled</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.06628v1</id>
+    <title>Random Variables aren't Random</title>
+    <updated>2025-02-10T16:26:01Z</updated>
+    <link href="https://arxiv.org/abs/2502.06628v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.06628v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper examines the foundational concept of random variables in probability theory and statistical inference, demonstrating that their mathematical definition requires no reference to randomization or hypothetical repeated sampling. We show how measure-theoretic probability provides a framework for modeling populations through distributions, leading to three key contributions. First, we establish that random variables, properly understood as measurable functions, can be fully characterized without appealing to infinite hypothetical samples. Second, we demonstrate how this perspective enables statistical inference through logical rather than probabilistic reasoning, extending the reductio ad absurdum argument from deductive to inductive inference. Third, we show how this framework naturally leads to information-based assessment of statistical procedures, replacing traditional inference metrics that emphasize bias and variance with information-based approaches that better describe the families of distributions used in parametric inference. This reformulation addresses long-standing debates in statistical inference while providing a more coherent theoretical foundation. Our approach offers an alternative to traditional frequentist inference that maintains mathematical rigor while avoiding the philosophical complications inherent in repeated sampling interpretations.</summary>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-10T16:26:01Z</published>
+    <arxiv:comment>17 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="stat.OT"/>
+    <author>
+      <name>Paul W. Vos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.12515v1</id>
+    <title>Random Markov property for random walks in random environments</title>
+    <updated>2024-09-19T07:13:02Z</updated>
+    <link href="https://arxiv.org/abs/2409.12515v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.12515v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider random walks in dynamic random environments and propose a criterion which, if satisfied, allows to decompose the random walk trajectory into i.i.d. increments, and ultimately to prove limit theorems. The criterion involves the construction of a random field built from the environment, that has to satisfy a certain random Markov property along with some mixing estimates. We apply this criterion to correlated environments such as Boolean percolation and renewal chains featuring polynomial decay of correlations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-19T07:13:02Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Julien Allasia</name>
+    </author>
+    <author>
+      <name>Rangel Baldasso</name>
+    </author>
+    <author>
+      <name>Oriane Blondel</name>
+    </author>
+    <author>
+      <name>Augusto Teixeira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.04331v2</id>
+    <title>Random projections of random manifolds</title>
+    <updated>2016-09-10T02:37:47Z</updated>
+    <link href="https://arxiv.org/abs/1607.04331v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.04331v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interesting data often concentrate on low dimensional smooth manifolds inside a high dimensional ambient space. Random projections are a simple, powerful tool for dimensionality reduction of such data. Previous works have studied bounds on how many projections are needed to accurately preserve the geometry of these manifolds, given their intrinsic dimensionality, volume and curvature. However, such works employ definitions of volume and curvature that are inherently difficult to compute. Therefore such theory cannot be easily tested against numerical simulations to understand the tightness of the proven bounds. We instead study typical distortions arising in random projections of an ensemble of smooth Gaussian random manifolds. We find explicitly computable, approximate theoretical bounds on the number of projections required to accurately preserve the geometry of these manifolds. Our bounds, while approximate, can only be violated with a probability that is exponentially small in the ambient dimension, and therefore they hold with high probability in cases of practical interest. Moreover, unlike previous work, we test our theoretical bounds against numerical experiments on the actual geometric distortions that typically occur for random projections of random smooth manifolds. We find our bounds are tighter than previous results by several orders of magnitude.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-14T21:43:39Z</published>
+    <arxiv:comment>45 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Subhaneil Lahiri</name>
+    </author>
+    <author>
+      <name>Peiran Gao</name>
+    </author>
+    <author>
+      <name>Surya Ganguli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.08253v1</id>
+    <title>Random Graphs from Random Matrices</title>
+    <updated>2019-10-18T04:16:06Z</updated>
+    <link href="https://arxiv.org/abs/1910.08253v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.08253v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use the order complex corresponding to a symmetric matrix (defined by Giusti et al in 2015). In this note, we use it to define a class of models of random graphs, and show some surprising experimental results, showing sharp phase transitions.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-18T04:16:06Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Igor Rivin</name>
+    </author>
+  </entry>
+</feed>
