@@ -18,14 +18,17 @@ from pathlib import Path
 
 
 
-STATE_PATH = "data/state.json"
+STATE_PATH = Path("data/state.json")
 
 def load_state(): #load state van de papers die opgeslagen zijn
-    with open(STATE_PATH) as f:
-        content = f.read().strip()
-        if not content:
-            return set()
-        return set(json.loads(content))
+    try:
+        with open(STATE_PATH) as f:
+            content = f.read().strip()
+            if not content:
+                return set()
+            return set(json.loads(content))
+    except FileNotFoundError:
+        return set()
 
 
 def save_state(seen): #voeg de nieuwe papers toe aan de oude state

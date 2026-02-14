@@ -1,11 +1,6 @@
 '''
 haal de papers op van arXiv op basis van een query, de raw response teruggeven en opslaan
 
-Om te testen: 1 call die 25 papers ophaalt.
-
-
-verzoek van arXiv API:
-“Thank you to arXiv for use of its open access interoperability.”
 
 '''
 
@@ -17,6 +12,9 @@ import json
 
 
 def fetch(baseurl, params):
+    '''
+    API request om papers op te halen op basis van de parameters
+    '''
     url = baseurl + "?" + urllib.parse.urlencode(params)
 
 
